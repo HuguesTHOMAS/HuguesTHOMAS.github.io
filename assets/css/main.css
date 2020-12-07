@@ -2858,6 +2858,16 @@ input, select, textarea {
 				font-size: 1.25rem;
 			}
 
+			ul.icons li .icon2:before {
+				width: 2.25rem;
+				height: 2.25rem;
+				line-height: 2.25rem;
+				display: inline-block;
+				text-align: center;
+				border-radius: 100%;
+				font-size: 1.25rem;
+			}
+
 		ul.icons.alt li .icon:before {
 			-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 			-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
@@ -2930,6 +2940,8 @@ input, select, textarea {
 		border-top-color: #eeeeee;
 	}
 
+	/* Icon */
+
 	ul.icons li a.icon:hover:before {
 		color: #18bfef;
 	}
@@ -2938,17 +2950,25 @@ input, select, textarea {
 		box-shadow: inset 0 0 0 2px #eeeeee;
 	}
 
-	ul.icons.alt li .icon2:before {
-		box-shadow: inset 0 0 0 2px #eeeeee;
-	}
-
 	ul.icons.alt li a.icon:hover:before {
 		box-shadow: inset 0 0 0 2px #18bfef;
+	}
+
+	
+	/* Icon2 */
+
+	ul.icons li a.icon2:hover:before {
+		color: #18bfef;
+	}
+
+	ul.icons.alt li .icon2:before {
+		box-shadow: inset 0 0 0 2px #eeeeee;
 	}
 
 	ul.icons.alt li a.icon2:hover:before {
 		box-shadow: inset 0 0 0 2px #18bfef;
 	}
+
 
 /* Section/Article */
 
@@ -3704,6 +3724,8 @@ input, select, textarea {
 			border-top-color: #ffffff;
 		}
 
+		/* icon */
+
 		#nav ul.icons li a.icon:hover:before {
 			color: #18bfef;
 		}
@@ -3713,6 +3735,20 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
+			box-shadow: inset 0 0 0 2px #18bfef;
+		}
+		
+		/* icon2 */
+
+		#nav ul.icons li a.icon2:hover:before {
+			color: #18bfef;
+		}
+
+		#nav ul.icons.alt li .icon2:before {
+			box-shadow: inset 0 0 0 2px #ffffff;
+		}
+
+		#nav ul.icons.alt li a.icon2:hover:before {
 			box-shadow: inset 0 0 0 2px #18bfef;
 		}
 
@@ -4191,6 +4227,8 @@ input, select, textarea {
 			border-top-color: #e2e2e2;
 		}
 
+		/* icon */
+
 		#footer ul.icons li a.icon:hover:before {
 			color: #18bfef;
 		}
@@ -4200,6 +4238,20 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
+			box-shadow: inset 0 0 0 2px #18bfef;
+		}
+		
+		/* icon2 */
+
+		#footer ul.icons li a.icon2:hover:before {
+			color: #18bfef;
+		}
+
+		#footer ul.icons.alt li .icon2:before {
+			box-shadow: inset 0 0 0 2px #e2e2e2;
+		}
+
+		#footer ul.icons.alt li a.icon2:hover:before {
 			box-shadow: inset 0 0 0 2px #18bfef;
 		}
 
