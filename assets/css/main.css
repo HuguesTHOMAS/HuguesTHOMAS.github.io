@@ -2098,6 +2098,14 @@ input, select, textarea {
 		.button.icon:before {
 			margin-right: 0.5rem;
 		}
+		
+		input[type="submit"].icon2:before,
+		input[type="reset"].icon2:before,
+		input[type="button"].icon2:before,
+		button.icon2:before,
+		.button.icon2:before {
+			margin-right: 0.5rem;
+		}
 
 		input[type="submit"].icon.solo,
 		input[type="reset"].icon.solo,
@@ -2132,6 +2140,30 @@ input, select, textarea {
 				text-align: center;
 				text-indent: 0;
 			}
+
+			input[type="submit"].icon2.solo:before,
+			input[type="reset"].icon2.solo:before,
+			input[type="button"].icon2.solo:before,
+			button.icon2.solo:before,
+			.button.icon2.solo:before {
+				position: absolute;
+				display: block;
+				top: 0;
+				left: 0;
+				width: inherit;
+				height: inherit;
+				line-height: inherit;
+				font-size: 1.25rem;
+				margin-right: 0;
+				text-align: center;
+				text-indent: 0;
+			}
+
+
+
+
+
+
 
 		input[type="submit"].fit,
 		input[type="reset"].fit,
@@ -2876,6 +2908,14 @@ input, select, textarea {
 						ul.actions:not(.fixed) li input[type="button"].icon:before,
 						ul.actions:not(.fixed) li button.icon:before,
 						ul.actions:not(.fixed) li .button.icon:before {
+							margin-left: -0.5rem;
+						}
+
+						ul.actions:not(.fixed) li input[type="submit"].icon2:before,
+						ul.actions:not(.fixed) li input[type="reset"].icon2:before,
+						ul.actions:not(.fixed) li input[type="button"].icon2:before,
+						ul.actions:not(.fixed) li button.icon2:before,
+						ul.actions:not(.fixed) li .button.icon2:before {
 							margin-left: -0.5rem;
 						}
 
