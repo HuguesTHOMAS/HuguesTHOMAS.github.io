@@ -4944,3 +4944,12 @@ iframe {
 	width: 100%;
 	height: 100%;
 }
+
+.article-container {
+    display: flex;
+    align-items: center;
+}
+
+.article-container .image {
+    margin-right: 10px; /* Adjust as needed */
+}
